@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-07-19T05:36:52.2027892Z",
+  "status": "pass",
+  "release_id": "wk-c69e16e3",
+  "source_commit": "c69e16e35e988ae3276d759a58c6a68f741480c7",
+  "manifest_sha256": "0d9c5ce8743fe9ef401f71b456f90808964be87565c2c3663da4c4a3bfc51012",
+  "publisher": "github-pages",
+  "artifact_repository": "aaron-game-build/wispkeepsake-playtest",
+  "artifact_initial_commit": "8be6c5a3c9b0ae21ea47012756337f47037d5f53",
+  "public_base_url": "https://aaron-game-build.github.io/wispkeepsake-playtest",
+  "immutable_prefix": "releases/wk-c69e16e3",
+  "published_objects_before_receipt": 46,
+  "published_bytes_before_receipt": 199570277,
+  "claim_limit": "This receipt marks artifact publication only. Machine and browser smoke do not constitute human comprehension evidence or close any Human Gate."
+}
