@@ -1,0 +1,656 @@
+{
+    "schema_version":  2,
+    "generated_utc":  "2026-07-19T08:47:27.5677653Z",
+    "release_id":  "wk-9dd82a9f",
+    "evidence_boundary":  "This manifest proves package identity and completed machine steps only. It does not prove player comprehension, partner-feel, fairness, or fun.",
+    "source":  {
+                   "head_commit":  "9dd82a9f3987c118b71d846279bd192fb1104883",
+                   "head_tree":  "a1c000afa08627e10e1a134a34d75050a1f5f2bc",
+                   "branch":  "(detached)",
+                   "worktree_clean":  true,
+                   "source_fingerprint_sha256":  "e5857cabddd402963b292003c1aa0b201a9ca74930cb399bd11ef824075af436",
+                   "status_porcelain":  [
+
+                                        ]
+               },
+    "toolchain":  {
+                      "godot":  "4.7.1.stable.official.a13da4feb",
+                      "godot_executable":  "E:\\Godot_v4.7.1-stable_win64.exe\\Godot_v4.7.1-stable_win64_console.exe",
+                      "web_template_version":  "4.7.1.stable",
+                      "web_templates":  [
+                                            {
+                                                "name":  "web_nothreads_debug.zip",
+                                                "bytes":  10231638,
+                                                "sha256":  "eb6ca0ca168c405e73b20a4439d6dc048d74ae65eb31cc7675b6bc3cf7ad1815"
+                                            },
+                                            {
+                                                "name":  "web_nothreads_release.zip",
+                                                "bytes":  10246274,
+                                                "sha256":  "b7b7d7da29fc6cc2f4934fdd26cc571a40e7af57f716ea3eb7e18da720dae28a"
+                                            }
+                                        ],
+                      "export_presets_sha256":  "3ef5d1012fa766cb5218afee04e1379f84b5ca4dc9bab4805a81b045acb724f3",
+                      "fixture_matrix":  "tools/playtest/fixtures.json",
+                      "fixture_matrix_sha256":  "512b9deb803fda3af0b1f1a78af50514874f8ad587a68dac27dddc84ad167ccf"
+                  },
+    "validation":  {
+                       "skipped":  false,
+                       "native_stability_skipped":  false,
+                       "native_stability_result":  "logs/native-stability/result.json",
+                       "exported_package_runtime_status":  "pass",
+                       "exported_package_runtime_log_pattern":  "logs/runtime-package-\u003cfixture\u003e.log",
+                       "log_directory":  "logs"
+                   },
+    "fixtures":  [
+                     {
+                         "id":  "r3",
+                         "public_test_code":  "A13",
+                         "label":  "R3 Twin Triggers",
+                         "build_id":  "A13-9dd82a9f",
+                         "preset":  "Web Human R3",
+                         "feature":  "playtest_r3",
+                         "scene":  "res://scenes/c1a_r3_graybox.tscn",
+                         "relative_url":  "r3/index.html",
+                         "evidence_eligibility":  "exact-commit-candidate",
+                         "files":  [
+                                       {
+                                           "path":  "index.apple-touch-icon.png",
+                                           "bytes":  11944,
+                                           "sha256":  "01d4f63e525941e06ce74f5187dad030d20a8d52a07ce365ae4e94af97a3b1f5"
+                                       },
+                                       {
+                                           "path":  "index.audio.position.worklet.js",
+                                           "bytes":  2973,
+                                           "sha256":  "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+                                       },
+                                       {
+                                           "path":  "index.audio.worklet.js",
+                                           "bytes":  7298,
+                                           "sha256":  "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+                                       },
+                                       {
+                                           "path":  "index.html",
+                                           "bytes":  5444,
+                                           "sha256":  "4ffcedf0c165fb01387ac8a828abebbc85231661975720ae5eeab2678340ab81"
+                                       },
+                                       {
+                                           "path":  "index.icon.png",
+                                           "bytes":  5700,
+                                           "sha256":  "ad3c35ad0facf487c618204bd98db543034fc95224eadc7f08c7a9ff38d5b3b5"
+                                       },
+                                       {
+                                           "path":  "index.js",
+                                           "bytes":  279815,
+                                           "sha256":  "68586d6daafc93c6e697b3fb258976874aa7459b8931165ebb1dc3c9614cc42c"
+                                       },
+                                       {
+                                           "path":  "index.pck",
+                                           "bytes":  8415340,
+                                           "sha256":  "e587d4bf280e19c15c05ac5d8738121b9e170e467df2727a12ca57f7f4573bab"
+                                       },
+                                       {
+                                           "path":  "index.png",
+                                           "bytes":  21443,
+                                           "sha256":  "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+                                       },
+                                       {
+                                           "path":  "index.wasm",
+                                           "bytes":  39513091,
+                                           "sha256":  "35116f68540ac41acf7d71ea457added91b5e960a9cca3e2acc72918eaf01277"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  "p0",
+                         "public_test_code":  "C04",
+                         "label":  "P0 Static Jump",
+                         "build_id":  "C04-9dd82a9f",
+                         "preset":  "Web Human P0",
+                         "feature":  "playtest_p0",
+                         "scene":  "res://scenes/metrics_p0_static_jump_lab.tscn",
+                         "relative_url":  "p0/index.html",
+                         "evidence_eligibility":  "exact-commit-candidate",
+                         "files":  [
+                                       {
+                                           "path":  "index.apple-touch-icon.png",
+                                           "bytes":  11944,
+                                           "sha256":  "01d4f63e525941e06ce74f5187dad030d20a8d52a07ce365ae4e94af97a3b1f5"
+                                       },
+                                       {
+                                           "path":  "index.audio.position.worklet.js",
+                                           "bytes":  2973,
+                                           "sha256":  "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+                                       },
+                                       {
+                                           "path":  "index.audio.worklet.js",
+                                           "bytes":  7298,
+                                           "sha256":  "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+                                       },
+                                       {
+                                           "path":  "index.html",
+                                           "bytes":  5444,
+                                           "sha256":  "4ffcedf0c165fb01387ac8a828abebbc85231661975720ae5eeab2678340ab81"
+                                       },
+                                       {
+                                           "path":  "index.icon.png",
+                                           "bytes":  5700,
+                                           "sha256":  "ad3c35ad0facf487c618204bd98db543034fc95224eadc7f08c7a9ff38d5b3b5"
+                                       },
+                                       {
+                                           "path":  "index.js",
+                                           "bytes":  279815,
+                                           "sha256":  "68586d6daafc93c6e697b3fb258976874aa7459b8931165ebb1dc3c9614cc42c"
+                                       },
+                                       {
+                                           "path":  "index.pck",
+                                           "bytes":  8415340,
+                                           "sha256":  "feff73302727910e96efca7adb7fb658e4fc4ffe0f975e9d8d752eee719b681d"
+                                       },
+                                       {
+                                           "path":  "index.png",
+                                           "bytes":  21443,
+                                           "sha256":  "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+                                       },
+                                       {
+                                           "path":  "index.wasm",
+                                           "bytes":  39513091,
+                                           "sha256":  "35116f68540ac41acf7d71ea457added91b5e960a9cca3e2acc72918eaf01277"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  "p1",
+                         "public_test_code":  "D19",
+                         "label":  "P1 Periodic Platform",
+                         "build_id":  "D19-9dd82a9f",
+                         "preset":  "Web Human P1",
+                         "feature":  "playtest_p1",
+                         "scene":  "res://scenes/metrics_p1_periodic_platform_lab.tscn",
+                         "relative_url":  "p1/index.html",
+                         "evidence_eligibility":  "exact-commit-candidate",
+                         "files":  [
+                                       {
+                                           "path":  "index.apple-touch-icon.png",
+                                           "bytes":  11944,
+                                           "sha256":  "01d4f63e525941e06ce74f5187dad030d20a8d52a07ce365ae4e94af97a3b1f5"
+                                       },
+                                       {
+                                           "path":  "index.audio.position.worklet.js",
+                                           "bytes":  2973,
+                                           "sha256":  "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+                                       },
+                                       {
+                                           "path":  "index.audio.worklet.js",
+                                           "bytes":  7298,
+                                           "sha256":  "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+                                       },
+                                       {
+                                           "path":  "index.html",
+                                           "bytes":  5444,
+                                           "sha256":  "4ffcedf0c165fb01387ac8a828abebbc85231661975720ae5eeab2678340ab81"
+                                       },
+                                       {
+                                           "path":  "index.icon.png",
+                                           "bytes":  5700,
+                                           "sha256":  "ad3c35ad0facf487c618204bd98db543034fc95224eadc7f08c7a9ff38d5b3b5"
+                                       },
+                                       {
+                                           "path":  "index.js",
+                                           "bytes":  279815,
+                                           "sha256":  "68586d6daafc93c6e697b3fb258976874aa7459b8931165ebb1dc3c9614cc42c"
+                                       },
+                                       {
+                                           "path":  "index.pck",
+                                           "bytes":  8415340,
+                                           "sha256":  "0cd5c98fd823f33fde297962b8fff4c17320f0a903a05b4520554e5b742fbb70"
+                                       },
+                                       {
+                                           "path":  "index.png",
+                                           "bytes":  21443,
+                                           "sha256":  "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+                                       },
+                                       {
+                                           "path":  "index.wasm",
+                                           "bytes":  39513091,
+                                           "sha256":  "35116f68540ac41acf7d71ea457added91b5e960a9cca3e2acc72918eaf01277"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  "e0",
+                         "public_test_code":  "E32",
+                         "label":  "P2-E0 Moving Shelter",
+                         "build_id":  "E32-9dd82a9f",
+                         "preset":  "Web Human E0",
+                         "feature":  "playtest_e0",
+                         "scene":  "res://scenes/metrics_moving_shelter_lab.tscn",
+                         "relative_url":  "e0/index.html",
+                         "evidence_eligibility":  "exact-commit-candidate",
+                         "files":  [
+                                       {
+                                           "path":  "index.apple-touch-icon.png",
+                                           "bytes":  11944,
+                                           "sha256":  "01d4f63e525941e06ce74f5187dad030d20a8d52a07ce365ae4e94af97a3b1f5"
+                                       },
+                                       {
+                                           "path":  "index.audio.position.worklet.js",
+                                           "bytes":  2973,
+                                           "sha256":  "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+                                       },
+                                       {
+                                           "path":  "index.audio.worklet.js",
+                                           "bytes":  7298,
+                                           "sha256":  "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+                                       },
+                                       {
+                                           "path":  "index.html",
+                                           "bytes":  5444,
+                                           "sha256":  "4ffcedf0c165fb01387ac8a828abebbc85231661975720ae5eeab2678340ab81"
+                                       },
+                                       {
+                                           "path":  "index.icon.png",
+                                           "bytes":  5700,
+                                           "sha256":  "ad3c35ad0facf487c618204bd98db543034fc95224eadc7f08c7a9ff38d5b3b5"
+                                       },
+                                       {
+                                           "path":  "index.js",
+                                           "bytes":  279815,
+                                           "sha256":  "68586d6daafc93c6e697b3fb258976874aa7459b8931165ebb1dc3c9614cc42c"
+                                       },
+                                       {
+                                           "path":  "index.pck",
+                                           "bytes":  8415340,
+                                           "sha256":  "2228f8acf1e3d68367f19c53e08e44593f69bf88a1bb9db4fca4d75cd582e7f0"
+                                       },
+                                       {
+                                           "path":  "index.png",
+                                           "bytes":  21443,
+                                           "sha256":  "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+                                       },
+                                       {
+                                           "path":  "index.wasm",
+                                           "bytes":  39513091,
+                                           "sha256":  "35116f68540ac41acf7d71ea457added91b5e960a9cca3e2acc72918eaf01277"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  "e1",
+                         "public_test_code":  "B27",
+                         "label":  "P2-E1 F1 Solidified Trail",
+                         "build_id":  "B27-9dd82a9f",
+                         "preset":  "Web Human E1",
+                         "feature":  "playtest_e1",
+                         "scene":  "res://scenes/metrics_solidified_trail_lab.tscn",
+                         "relative_url":  "e1/index.html",
+                         "evidence_eligibility":  "exact-commit-candidate",
+                         "files":  [
+                                       {
+                                           "path":  "index.apple-touch-icon.png",
+                                           "bytes":  11944,
+                                           "sha256":  "01d4f63e525941e06ce74f5187dad030d20a8d52a07ce365ae4e94af97a3b1f5"
+                                       },
+                                       {
+                                           "path":  "index.audio.position.worklet.js",
+                                           "bytes":  2973,
+                                           "sha256":  "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+                                       },
+                                       {
+                                           "path":  "index.audio.worklet.js",
+                                           "bytes":  7298,
+                                           "sha256":  "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+                                       },
+                                       {
+                                           "path":  "index.html",
+                                           "bytes":  5444,
+                                           "sha256":  "4ffcedf0c165fb01387ac8a828abebbc85231661975720ae5eeab2678340ab81"
+                                       },
+                                       {
+                                           "path":  "index.icon.png",
+                                           "bytes":  5700,
+                                           "sha256":  "ad3c35ad0facf487c618204bd98db543034fc95224eadc7f08c7a9ff38d5b3b5"
+                                       },
+                                       {
+                                           "path":  "index.js",
+                                           "bytes":  279815,
+                                           "sha256":  "68586d6daafc93c6e697b3fb258976874aa7459b8931165ebb1dc3c9614cc42c"
+                                       },
+                                       {
+                                           "path":  "index.pck",
+                                           "bytes":  8415340,
+                                           "sha256":  "34f0ac30dfe6784919ee8c030e6f6ea1ca86db0bd43401960b70e60b1d6d41eb"
+                                       },
+                                       {
+                                           "path":  "index.png",
+                                           "bytes":  21443,
+                                           "sha256":  "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+                                       },
+                                       {
+                                           "path":  "index.wasm",
+                                           "bytes":  39513091,
+                                           "sha256":  "35116f68540ac41acf7d71ea457added91b5e960a9cca3e2acc72918eaf01277"
+                                       }
+                                   ]
+                     }
+                 ],
+    "http_smoke":  {
+                       "status":  "pass",
+                       "generated_utc":  "2026-07-19T08:48:10.4236547Z",
+                       "server":  "python-http.server",
+                       "base_url":  "http://127.0.0.1:8068",
+                       "fixtures":  [
+                                        {
+                                            "fixture":  "r3",
+                                            "url":  "http://127.0.0.1:8068/r3/index.html",
+                                            "status":  "pass",
+                                            "files":  [
+                                                          {
+                                                              "path":  "index.apple-touch-icon.png",
+                                                              "status":  200,
+                                                              "content_type":  "image/png",
+                                                              "content_length":  11944
+                                                          },
+                                                          {
+                                                              "path":  "index.audio.position.worklet.js",
+                                                              "status":  200,
+                                                              "content_type":  "application/javascript",
+                                                              "content_length":  2973
+                                                          },
+                                                          {
+                                                              "path":  "index.audio.worklet.js",
+                                                              "status":  200,
+                                                              "content_type":  "application/javascript",
+                                                              "content_length":  7298
+                                                          },
+                                                          {
+                                                              "path":  "index.html",
+                                                              "status":  200,
+                                                              "content_type":  "text/html",
+                                                              "content_length":  5444
+                                                          },
+                                                          {
+                                                              "path":  "index.icon.png",
+                                                              "status":  200,
+                                                              "content_type":  "image/png",
+                                                              "content_length":  5700
+                                                          },
+                                                          {
+                                                              "path":  "index.js",
+                                                              "status":  200,
+                                                              "content_type":  "application/javascript",
+                                                              "content_length":  279815
+                                                          },
+                                                          {
+                                                              "path":  "index.pck",
+                                                              "status":  200,
+                                                              "content_type":  "application/octet-stream",
+                                                              "content_length":  8415340
+                                                          },
+                                                          {
+                                                              "path":  "index.png",
+                                                              "status":  200,
+                                                              "content_type":  "image/png",
+                                                              "content_length":  21443
+                                                          },
+                                                          {
+                                                              "path":  "index.wasm",
+                                                              "status":  200,
+                                                              "content_type":  "application/wasm",
+                                                              "content_length":  39513091
+                                                          }
+                                                      ]
+                                        },
+                                        {
+                                            "fixture":  "p0",
+                                            "url":  "http://127.0.0.1:8068/p0/index.html",
+                                            "status":  "pass",
+                                            "files":  [
+                                                          {
+                                                              "path":  "index.apple-touch-icon.png",
+                                                              "status":  200,
+                                                              "content_type":  "image/png",
+                                                              "content_length":  11944
+                                                          },
+                                                          {
+                                                              "path":  "index.audio.position.worklet.js",
+                                                              "status":  200,
+                                                              "content_type":  "application/javascript",
+                                                              "content_length":  2973
+                                                          },
+                                                          {
+                                                              "path":  "index.audio.worklet.js",
+                                                              "status":  200,
+                                                              "content_type":  "application/javascript",
+                                                              "content_length":  7298
+                                                          },
+                                                          {
+                                                              "path":  "index.html",
+                                                              "status":  200,
+                                                              "content_type":  "text/html",
+                                                              "content_length":  5444
+                                                          },
+                                                          {
+                                                              "path":  "index.icon.png",
+                                                              "status":  200,
+                                                              "content_type":  "image/png",
+                                                              "content_length":  5700
+                                                          },
+                                                          {
+                                                              "path":  "index.js",
+                                                              "status":  200,
+                                                              "content_type":  "application/javascript",
+                                                              "content_length":  279815
+                                                          },
+                                                          {
+                                                              "path":  "index.pck",
+                                                              "status":  200,
+                                                              "content_type":  "application/octet-stream",
+                                                              "content_length":  8415340
+                                                          },
+                                                          {
+                                                              "path":  "index.png",
+                                                              "status":  200,
+                                                              "content_type":  "image/png",
+                                                              "content_length":  21443
+                                                          },
+                                                          {
+                                                              "path":  "index.wasm",
+                                                              "status":  200,
+                                                              "content_type":  "application/wasm",
+                                                              "content_length":  39513091
+                                                          }
+                                                      ]
+                                        },
+                                        {
+                                            "fixture":  "p1",
+                                            "url":  "http://127.0.0.1:8068/p1/index.html",
+                                            "status":  "pass",
+                                            "files":  [
+                                                          {
+                                                              "path":  "index.apple-touch-icon.png",
+                                                              "status":  200,
+                                                              "content_type":  "image/png",
+                                                              "content_length":  11944
+                                                          },
+                                                          {
+                                                              "path":  "index.audio.position.worklet.js",
+                                                              "status":  200,
+                                                              "content_type":  "application/javascript",
+                                                              "content_length":  2973
+                                                          },
+                                                          {
+                                                              "path":  "index.audio.worklet.js",
+                                                              "status":  200,
+                                                              "content_type":  "application/javascript",
+                                                              "content_length":  7298
+                                                          },
+                                                          {
+                                                              "path":  "index.html",
+                                                              "status":  200,
+                                                              "content_type":  "text/html",
+                                                              "content_length":  5444
+                                                          },
+                                                          {
+                                                              "path":  "index.icon.png",
+                                                              "status":  200,
+                                                              "content_type":  "image/png",
+                                                              "content_length":  5700
+                                                          },
+                                                          {
+                                                              "path":  "index.js",
+                                                              "status":  200,
+                                                              "content_type":  "application/javascript",
+                                                              "content_length":  279815
+                                                          },
+                                                          {
+                                                              "path":  "index.pck",
+                                                              "status":  200,
+                                                              "content_type":  "application/octet-stream",
+                                                              "content_length":  8415340
+                                                          },
+                                                          {
+                                                              "path":  "index.png",
+                                                              "status":  200,
+                                                              "content_type":  "image/png",
+                                                              "content_length":  21443
+                                                          },
+                                                          {
+                                                              "path":  "index.wasm",
+                                                              "status":  200,
+                                                              "content_type":  "application/wasm",
+                                                              "content_length":  39513091
+                                                          }
+                                                      ]
+                                        },
+                                        {
+                                            "fixture":  "e0",
+                                            "url":  "http://127.0.0.1:8068/e0/index.html",
+                                            "status":  "pass",
+                                            "files":  [
+                                                          {
+                                                              "path":  "index.apple-touch-icon.png",
+                                                              "status":  200,
+                                                              "content_type":  "image/png",
+                                                              "content_length":  11944
+                                                          },
+                                                          {
+                                                              "path":  "index.audio.position.worklet.js",
+                                                              "status":  200,
+                                                              "content_type":  "application/javascript",
+                                                              "content_length":  2973
+                                                          },
+                                                          {
+                                                              "path":  "index.audio.worklet.js",
+                                                              "status":  200,
+                                                              "content_type":  "application/javascript",
+                                                              "content_length":  7298
+                                                          },
+                                                          {
+                                                              "path":  "index.html",
+                                                              "status":  200,
+                                                              "content_type":  "text/html",
+                                                              "content_length":  5444
+                                                          },
+                                                          {
+                                                              "path":  "index.icon.png",
+                                                              "status":  200,
+                                                              "content_type":  "image/png",
+                                                              "content_length":  5700
+                                                          },
+                                                          {
+                                                              "path":  "index.js",
+                                                              "status":  200,
+                                                              "content_type":  "application/javascript",
+                                                              "content_length":  279815
+                                                          },
+                                                          {
+                                                              "path":  "index.pck",
+                                                              "status":  200,
+                                                              "content_type":  "application/octet-stream",
+                                                              "content_length":  8415340
+                                                          },
+                                                          {
+                                                              "path":  "index.png",
+                                                              "status":  200,
+                                                              "content_type":  "image/png",
+                                                              "content_length":  21443
+                                                          },
+                                                          {
+                                                              "path":  "index.wasm",
+                                                              "status":  200,
+                                                              "content_type":  "application/wasm",
+                                                              "content_length":  39513091
+                                                          }
+                                                      ]
+                                        },
+                                        {
+                                            "fixture":  "e1",
+                                            "url":  "http://127.0.0.1:8068/e1/index.html",
+                                            "status":  "pass",
+                                            "files":  [
+                                                          {
+                                                              "path":  "index.apple-touch-icon.png",
+                                                              "status":  200,
+                                                              "content_type":  "image/png",
+                                                              "content_length":  11944
+                                                          },
+                                                          {
+                                                              "path":  "index.audio.position.worklet.js",
+                                                              "status":  200,
+                                                              "content_type":  "application/javascript",
+                                                              "content_length":  2973
+                                                          },
+                                                          {
+                                                              "path":  "index.audio.worklet.js",
+                                                              "status":  200,
+                                                              "content_type":  "application/javascript",
+                                                              "content_length":  7298
+                                                          },
+                                                          {
+                                                              "path":  "index.html",
+                                                              "status":  200,
+                                                              "content_type":  "text/html",
+                                                              "content_length":  5444
+                                                          },
+                                                          {
+                                                              "path":  "index.icon.png",
+                                                              "status":  200,
+                                                              "content_type":  "image/png",
+                                                              "content_length":  5700
+                                                          },
+                                                          {
+                                                              "path":  "index.js",
+                                                              "status":  200,
+                                                              "content_type":  "application/javascript",
+                                                              "content_length":  279815
+                                                          },
+                                                          {
+                                                              "path":  "index.pck",
+                                                              "status":  200,
+                                                              "content_type":  "application/octet-stream",
+                                                              "content_length":  8415340
+                                                          },
+                                                          {
+                                                              "path":  "index.png",
+                                                              "status":  200,
+                                                              "content_type":  "image/png",
+                                                              "content_length":  21443
+                                                          },
+                                                          {
+                                                              "path":  "index.wasm",
+                                                              "status":  200,
+                                                              "content_type":  "application/wasm",
+                                                              "content_length":  39513091
+                                                          }
+                                                      ]
+                                        }
+                                    ],
+                       "claim_limit":  "HTTP smoke verifies exported file availability, byte lengths, and MIME types using HEAD requests. Browser boot, response-body integrity, and human experience require separate review."
+                   },
+    "publication":  {
+                        "status":  "unpublished",
+                        "immutable_prefix":  "releases/wk-9dd82a9f",
+                        "overwrite_allowed":  false,
+                        "deployment_receipt":  "deployment.json"
+                    }
+}
