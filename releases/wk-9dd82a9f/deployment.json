@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-07-19T08:58:26.0327790Z",
+  "status": "pass",
+  "release_id": "wk-9dd82a9f",
+  "source_commit": "9dd82a9f3987c118b71d846279bd192fb1104883",
+  "manifest_sha256": "ad5502c3bf8c10017129db97c835799b01b2a60e6d7532f7177640a5f9febc3f",
+  "public_smoke_sha256": "b787e705a648f551e98fd47b2013e8c7e372bf84c5a564f492db71fb4b4d4e6f",
+  "publisher": "github-pages",
+  "artifact_repository": "aaron-game-build/wispkeepsake-playtest",
+  "artifact_initial_commit": "c112c875288db54508b4fce887748f66ede126b4",
+  "artifact_verified_content_commit": "e9dcad15084e0149bfb8f27776d7a6cdf1a06bdd",
+  "public_base_url": "https://aaron-game-build.github.io/wispkeepsake-playtest",
+  "immutable_prefix": "releases/wk-9dd82a9f",
+  "published_objects_before_receipt": 46,
+  "published_bytes_before_receipt": 241361224,
+  "browser_smoke": {
+    "status": "pass",
+    "fixtures": [
+      "r3",
+      "p0",
+      "p1",
+      "e0",
+      "e1"
+    ],
+    "ready_marker": "true",
+    "runtime_error_count": 0
+  },
+  "claim_limit": "This receipt marks artifact publication only. Machine and browser smoke do not constitute human comprehension evidence or close any Human Gate."
+}
