@@ -1,0 +1,397 @@
+{
+  "schema_version": 2,
+  "generated_utc": "2026-07-26T03:08:52.047133Z",
+  "release_id": "wk-82fe133a",
+  "source": {
+    "head_commit": "82fe133a10bfc3c5264eecaf9a4ca673c412a29e",
+    "tree": "5d4bfa34f1c4578f590afec771ddc176589f1eb1",
+    "branch": "codex/wk-cap-slice",
+    "worktree_clean": true,
+    "project_default_scene": "res://scenes/c1a_r3_graybox.tscn",
+    "canonical_fixture_ids": [
+      "r3",
+      "p0",
+      "p1",
+      "e0",
+      "e1"
+    ]
+  },
+  "fixtures": [
+    {
+      "id": "cap-aa",
+      "label": "WK CAP A–A control slice",
+      "scene": "res://scenes/cap/wk_cap_aa_control_slice.tscn",
+      "relative_url": "cap-aa/index.html",
+      "evidence_eligibility": "exact-commit-candidate",
+      "files": [
+        {
+          "path": "index.apple-touch-icon.png",
+          "bytes": 11944,
+          "sha256": "01d4f63e525941e06ce74f5187dad030d20a8d52a07ce365ae4e94af97a3b1f5"
+        },
+        {
+          "path": "index.audio.position.worklet.js",
+          "bytes": 2973,
+          "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+        },
+        {
+          "path": "index.audio.worklet.js",
+          "bytes": 7298,
+          "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+        },
+        {
+          "path": "index.html",
+          "bytes": 5445,
+          "sha256": "a84a7422b2b426b2b85924e5e4e33a0378c114cf42b5e90686c10ab64be0f6d5"
+        },
+        {
+          "path": "index.icon.png",
+          "bytes": 5700,
+          "sha256": "ad3c35ad0facf487c618204bd98db543034fc95224eadc7f08c7a9ff38d5b3b5"
+        },
+        {
+          "path": "index.js",
+          "bytes": 279815,
+          "sha256": "68586d6daafc93c6e697b3fb258976874aa7459b8931165ebb1dc3c9614cc42c"
+        },
+        {
+          "path": "index.pck",
+          "bytes": 96967128,
+          "sha256": "e74c0aa96d62f216b322ba2843ee288cdc977d4cd59bb36f63b63a5948c7ad12"
+        },
+        {
+          "path": "index.png",
+          "bytes": 21443,
+          "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+        },
+        {
+          "path": "index.wasm",
+          "bytes": 39509339,
+          "sha256": "7eda98958eb09135a1acb54a4323a00b1a55af1997f15fa1cdc2b93e3df46656"
+        }
+      ]
+    }
+  ],
+  "temporary_project": {
+    "copy_only": true,
+    "main_scene": "res://scenes/cap/wk_cap_aa_control_slice.tscn",
+    "settings": {
+      "wisp/cap_aa_release_marker": true,
+      "wisp/cap_aa_release_fixture": "cap-aa"
+    },
+    "release_provenance": {
+      "schema_version": 1,
+      "source_commit": "82fe133a10bfc3c5264eecaf9a4ca673c412a29e",
+      "contract_sha256": "86d80f924f41ebe9ce7c61d520fadb9c6d13a9bd486565b30d028d46847707f9",
+      "contract_identity_sha256": "7255ff7d03bd0f5ec62146ff77781eeabe6757d5c6ae2f8dffa93b929521365a",
+      "source_file_count": 24,
+      "injected_into_disposable_project_only": true
+    }
+  },
+  "validation": {
+    "skipped": false,
+    "native_stability_skipped": false,
+    "editor_scan": {
+      "returncode": 0,
+      "passed": true,
+      "fatal_lines": [],
+      "output_tail": "\u001b[0m\n[  47% ] \u001b[90m\u001b[1mreimport\u001b[22m | style_faceted_memory.png\u001b[39m\u001b[0m\n[  48% ] \u001b[90m\u001b[1mreimport\u001b[22m | style_faceted_lowpoly.png\u001b[39m\u001b[0m\n[  50% ] \u001b[90m\u001b[1mreimport\u001b[22m | B03_B_twin_lens_courtyard.png\u001b[39m\u001b[0m\n[  51% ] \u001b[90m\u001b[1mreimport\u001b[22m | B03_A_folded_moon_gate.png\u001b[39m\u001b[0m\n[  52% ] \u001b[90m\u001b[1mreimport\u001b[22m | B02_C_memory_sequence.png\u001b[39m\u001b[0m\n[  53% ] \u001b[90m\u001b[1mreimport\u001b[22m | B02_B_echo_confirm.png\u001b[39m\u001b[0m\n[  54% ] \u001b[90m\u001b[1mreimport\u001b[22m | B02_A_split_symbols.png\u001b[39m\u001b[0m\n[  55% ] \u001b[90m\u001b[1mreimport\u001b[22m | B01_C_room_rotation.png\u001b[39m\u001b[0m\n[  56% ] \u001b[90m\u001b[1mreimport\u001b[22m | B01_B_shadow_path.png\u001b[39m\u001b[0m\n[  57% ] \u001b[90m\u001b[1mreimport\u001b[22m | B01_A_hinged_causeway.png\u001b[39m\u001b[0m\n[  58% ] \u001b[90m\u001b[1mreimport\u001b[22m | V03_C_timing_hold_protocol.png\u001b[39m\u001b[0m\n[  59% ] \u001b[90m\u001b[1mreimport\u001b[22m | V03_B_light_shadow_protocol.png\u001b[39m\u001b[0m\n[  60% ] \u001b[90m\u001b[1mreimport\u001b[22m | V03_A_geometry_relay.png\u001b[39m\u001b[0m\n[  61% ] \u001b[90m\u001b[1mreimport\u001b[22m | V02_C_trust_sequence.png\u001b[39m\u001b[0m\n[  63% ] \u001b[90m\u001b[1mreimport\u001b[22m | V02_B_capability_contrast.png\u001b[39m\u001b[0m\n[  64% ] \u001b[90m\u001b[1mreimport\u001b[22m | V02_A_expressive_partnership.png\u001b[39m\u001b[0m\n[  65% ] \u001b[90m\u001b[1mreimport\u001b[22m | V01_C_modular_hanging_garden.png\u001b[39m\u001b[0m\n[  66% ] \u001b[90m\u001b[1mreimport\u001b[22m | V01_B_astral_orrery_sanctuary.png\u001b[39m\u001b[0m\n[  67% ] \u001b[90m\u001b[1mreimport\u001b[22m | V01_A_folded_moon_monastery.png\u001b[39m\u001b[0m\n[  68% ] \u001b[90m\u001b[1mreimport\u001b[22m | U01_C_planning_freeze_constellation.png\u001b[39m\u001b[0m\n[  69% ] \u001b[90m\u001b[1mreimport\u001b[22m | U01_B_command_tray_ghost_route.png\u001b[39m\u001b[0m\n[  70% ] \u001b[90m\u001b[1mreimport\u001b[22m | U01_A_world_anchored_minimal.png\u001b[39m\u001b[0m\n[  71% ] \u001b[90m\u001b[1mreimport\u001b[22m | K01_C_counterweighted_light_tower.png\u001b[39m\u001b[0m\n[  72% ] \u001b[90m\u001b[1mreimport\u001b[22m | K01_B_perspective_folded_bridge.png\u001b[39m\u001b[0m\n[  73% ] \u001b[90m\u001b[1mreimport\u001b[22m | K01_A_rotating_stair_far_anchor.png\u001b[39m\u001b[0m\n[  75% ] \u001b[90m\u001b[1mreimport\u001b[22m | wisp_w3_hollow_pebble.png\u001b[39m\u001b[0m\n[  76% ] \u001b[90m\u001b[1mreimport\u001b[22m | wisp_w2_bridge_buddy.png\u001b[39m\u001b[0m\n[  77% ] \u001b[90m\u001b[1mreimport\u001b[22m | wisp_w1_guardian_arch.png\u001b[39m\u001b[0m\n[  78% ] \u001b[90m\u001b[1mreimport\u001b[22m | player_p3_kite_poncho.png\u001b[39m\u001b[0m\n[  79% ] \u001b[90m\u001b[1mreimport\u001b[22m | player_p2_petal_cape.png\u001b[39m\u001b[0m\n[  80% ] \u001b[90m\u001b[1mreimport\u001b[22m | player_p1_little_sail.png\u001b[39m\u001b[0m\n[  81% ] \u001b[90m\u001b[1mreimport\u001b[22m | S1_01_three_beat_cut_stone_gate.png\u001b[39m\u001b[0m\n[  82% ] \u001b[90m\u001b[1mreimport\u001b[22m | S2_02_reciprocal_load_gate.png\u001b[39m\u001b[0m\n[  83% ] \u001b[90m\u001b[1mreimport\u001b[22m | S1_01_nine_point_forge_gate.png\u001b[39m\u001b[0m\n[  84% ] \u001b[90m\u001b[1mreimport\u001b[22m | K01_B2A_v2_graybox_blueprint.png\u001b[39m\u001b[0m\n[  85% ] \u001b[90m\u001b[1mreimport\u001b[22m | R03_v2_bridge_lifecycle.png\u001b[39m\u001b[0m\n[  86% ] \u001b[90m\u001b[1mreimport\u001b[22m | R02_v2_anchor_identity_state_grid.png\u001b[39m\u001b[0m\n[  88% ] \u001b[90m\u001b[1mreimport\u001b[22m | R01_v2_four_seed_matrix.png\u001b[39m\u001b[0m\n[  89% ] \u001b[90m\u001b[1mreimport\u001b[22m | S03_failure_reset.png\u001b[39m\u001b[0m\n[  90% ] \u001b[90m\u001b[1mreimport\u001b[22m | S02_motion_safety.png\u001b[39m\u001b[0m\n[  91% ] \u001b[90m\u001b[1mreimport\u001b[22m | S01_success_command_beat.png\u001b[39m\u001b[0m\n[  92% ] \u001b[90m\u001b[1mreimport\u001b[22m | K01_B2C_compact_vertical.png\u001b[39m\u001b[0m\n[  93% ] \u001b[90m\u001b[1mreimport\u001b[22m | K01_B2B_z_route.png\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1mreimport\u001b[22m | K01_B2A_triangular.png\u001b[39m\u001b[0m\n[  95% ] \u001b[90m\u001b[1mreimport\u001b[22m | R03_predicate_state_ladder.png\u001b[39m\u001b[0m\n[  96% ] \u001b[90m\u001b[1mreimport\u001b[22m | R02_affordance_symbols.png\u001b[39m\u001b[0m\n[  97% ] \u001b[90m\u001b[1mreimport\u001b[22m | R01_seed_visibility_pair.png\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1mreimport\u001b[22m | Finalizing Asset Import...\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mreimport\u001b[22m\n\u001b[0m\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | Started (Re)Importing Assets (91 steps)\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | Executing post-reimport operations...\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mreimport\u001b[22m\n\u001b[0m\n[   0% ] \u001b[90m\u001b[1mloading_editor_layout\u001b[22m | Started Loading editor (5 steps)\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mloading_editor_layout\u001b[22m | Loading editor layout...\u001b[39m\u001b[0m\n[  16% ] \u001b[90m\u001b[1mloading_editor_layout\u001b[22m | Loading docks...\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mloading_editor_layout\u001b[22m\n\u001b[0m\n"
+    },
+    "results": [
+      {
+        "script": "tests/run_cap_slice_contract_tests.gd",
+        "returncode": 0,
+        "expected_pass_marker": "WISP_CAP_SLICE_CONTRACT_TESTS_PASS",
+        "observed_pass_marker": true,
+        "passed": true,
+        "fatal_lines": [],
+        "output_tail": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org\n\nWISP_CAP_SLICE_CONTRACT_TESTS_PASS assertions=90 a1_hash=c85e3fe0dbe5170bc2aa16c14b61ddea12e45c60ef228e183d6eb7fb3650284c a2_author_hash=5b058d359fdd8a71341abbf515a6dbe55095e921607ba64539d6022a809a92cd\n"
+      },
+      {
+        "script": "tests/run_cap_slice_runtime_test.gd",
+        "returncode": 0,
+        "expected_pass_marker": "WISP_CAP_SLICE_RUNTIME_TESTS_PASS",
+        "observed_pass_marker": true,
+        "passed": true,
+        "fatal_lines": [],
+        "output_tail": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org\n\nWISP_CAP_SLICE_RUNTIME_TESTS_PASS assertions=58 walkability=not_run\nWARNING: 4 ObjectDB instances were leaked at exit (run with `--verbose` for details).\n   at: cleanup (core/object/object.cpp:2535)\nERROR: 1 resources still in use at exit (run with --verbose for details).\n   at: clear (core/io/resource.cpp:822)\n"
+      },
+      {
+        "script": "tests/run_cap_slice_counterfactual_test.gd",
+        "returncode": 0,
+        "expected_pass_marker": "WISP_CAP_SLICE_COUNTERFACTUAL_TESTS_PASS",
+        "observed_pass_marker": true,
+        "passed": true,
+        "fatal_lines": [],
+        "output_tail": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org\n\nERROR: CAP_CONTINUOUS_CONTAINER_REJECTED: production sequence 必须是 canonical aa/aca\n   at: push_error (core/variant/variant_utility.cpp:1023)\n   GDScript backtrace (most recent call first):\n       [0] configure_sequence (res://scripts/cap/cap_continuous_container.gd:45)\n       [1] _run (res://tests/run_cap_slice_counterfactual_test.gd:15)\nERROR: CAP_CONTINUOUS_CONTAINER_REJECTED: production sequence 必须是 canonical aa/aca\n   at: push_error (core/variant/variant_utility.cpp:1023)\n   GDScript backtrace (most recent call first):\n       [0] configure_sequence (res://scripts/cap/cap_continuous_container.gd:45)\n       [1] _run (res://tests/run_cap_slice_counterfactual_test.gd:16)\nERROR: CAP_CONTINUOUS_CONTAINER_REJECTED: production sequence 必须是 canonical aa/aca\n   at: push_error (core/variant/variant_utility.cpp:1023)\n   GDScript backtrace (most recent call first):\n       [0] configure_sequence (res://scripts/cap/cap_continuous_container.gd:45)\n       [1] _run (res://tests/run_cap_slice_counterfactual_test.gd:17)\nERROR: CAP_CONTINUOUS_CONTAINER_REJECTED: production sequence 必须是 canonical aa/aca\n   at: push_error (core/variant/variant_utility.cpp:1023)\n   GDScript backtrace (most recent call first):\n       [0] configure_sequence (res://scripts/cap/cap_continuous_container.gd:45)\n       [1] _run (res://tests/run_cap_slice_counterfactual_test.gd:18)\nWISP_CAP_SLICE_COUNTERFACTUAL_TESTS_PASS assertions=45 domain_injection=true walkability=not_run\nWARNING: 1 ObjectDB instance was leaked at exit (run with `--verbose` for details).\n   at: cleanup (core/object/object.cpp:2535)\n"
+      },
+      {
+        "script": "tests/run_cap_slice_walkability_test.gd",
+        "returncode": 0,
+        "expected_pass_marker": "WISP_CAP_SLICE_WALKABILITY_TESTS_PASS",
+        "observed_pass_marker": true,
+        "passed": true,
+        "fatal_lines": [],
+        "output_tail": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org\n\nCAP_SLICE_CARRY_POSE segment=a1 exact_surface_samples=499 remote_offset=0.05 resolution=0.05 latched_body_stone=0.241 latched_head_stone=0.169 body_door=0.142 head_door=0.355 lift_overlap=0.000->0.000 max_hand_support=2.517\nCAP_SLICE_CARRY_POSE segment=a2 exact_surface_samples=499 remote_offset=1.80 resolution=0.05 latched_body_stone=0.000 latched_head_stone=0.115 body_door=0.142 head_door=0.355 lift_overlap=0.368->0.000 max_hand_support=2.517\nCAP_SLICE_CARRY_POSE segment=a1 exact_surface_samples=499 remote_offset=0.05 resolution=0.05 latched_body_stone=0.241 latched_head_stone=0.169 body_door=0.142 head_door=0.355 lift_overlap=0.000->0.000 max_hand_support=2.517\nCAP_SLICE_CARRY_POSE segment=a2 exact_surface_samples=499 remote_offset=1.80 resolution=0.05 latched_body_stone=0.000 latched_head_stone=0.115 body_door=0.142 head_door=0.355 lift_overlap=0.368->0.000 max_hand_support=2.517\nWISP_CAP_SLICE_WALKABILITY_TESTS_PASS assertions=90 ordinary_input=full_route variants=2\n"
+      },
+      {
+        "script": "tests/run_cap_infra_tests.gd",
+        "returncode": 0,
+        "expected_pass_marker": "WISP_CAP_INFRA_TESTS_PASS",
+        "observed_pass_marker": true,
+        "passed": true,
+        "fatal_lines": [],
+        "output_tail": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org\n\nERROR: CAP_CONTINUOUS_CONTAINER_REJECTED: production sequence 必须是 canonical aa/aca\n   at: push_error (core/variant/variant_utility.cpp:1023)\n   GDScript backtrace (most recent call first):\n       [0] configure_sequence (res://scripts/cap/cap_continuous_container.gd:45)\n       [1] _check_production_sequence_api (res://tests/run_cap_infra_tests.gd:82)\n       [2] _init (res://tests/run_cap_infra_tests.gd:50)\nERROR: CAP_CONTINUOUS_CONTAINER_REJECTED: production sequence 必须是 canonical aa/aca\n   at: push_error (core/variant/variant_utility.cpp:1023)\n   GDScript backtrace (most recent call first):\n       [0] configure_sequence (res://scripts/cap/cap_continuous_container.gd:45)\n       [1] _check_production_sequence_api (res://tests/run_cap_infra_tests.gd:83)\n       [2] _init (res://tests/run_cap_infra_tests.gd:50)\nERROR: CAP_CONTINUOUS_CONTAINER_REJECTED: production sequence 必须是 canonical aa/aca\n   at: push_error (core/variant/variant_utility.cpp:1023)\n   GDScript backtrace (most recent call first):\n       [0] configure_sequence (res://scripts/cap/cap_continuous_container.gd:45)\n       [1] _check_production_sequence_api (res://tests/run_cap_infra_tests.gd:84)\n       [2] _init (res://tests/run_cap_infra_tests.gd:50)\nWISP_CAP_INFRA_TESTS_PASS assertions=47 seam_diffs=1 human_eligible=false\n"
+      },
+      {
+        "script": "tests/run_design_registry_tests.gd",
+        "returncode": 0,
+        "expected_pass_marker": "WISP_DESIGN_REGISTRY_TESTS_PASS",
+        "observed_pass_marker": true,
+        "passed": true,
+        "fatal_lines": [],
+        "output_tail": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org\n\nWISP_DESIGN_REGISTRY_TESTS_PASS assertions=16151 designs=7 claims=8 level_relations=13 negative_cases=15 positive_extension_cases=1\n"
+      },
+      {
+        "script": "tests/run_level_catalog_tests.gd",
+        "returncode": 0,
+        "expected_pass_marker": "WISP_LEVEL_CATALOG_TESTS_PASS",
+        "observed_pass_marker": true,
+        "passed": true,
+        "fatal_lines": [],
+        "output_tail": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org\n\nWISP_LEVEL_CATALOG_TESTS_PASS assertions=4528 levels=25 scenes=25 fixtures=5\n"
+      }
+    ]
+  },
+  "source_integrity": {
+    "stage": "build-time",
+    "mode": "live_raw_sha256",
+    "contract_sha256": "86d80f924f41ebe9ce7c61d520fadb9c6d13a9bd486565b30d028d46847707f9",
+    "historical_v1_sha256": "8d3e02a893947fd4fe03aa77529ba1e28d60b832b2c1cf71a1099ef5c6f7924d",
+    "required_source_paths": [
+      "res://resources/cap/cap_slice_a2_g0_config.tres",
+      "res://resources/cap/cap_slice_a2_g1_config.tres",
+      "res://resources/s1_01_g0_config.tres",
+      "res://resources/s1_01_g1_config.tres",
+      "res://scenes/cap/wk_cap_aa_control_slice.tscn",
+      "res://scenes/cap/wk_cap_aca_treatment_slice.tscn",
+      "res://scenes/s1_01_g0_cut_stone_lab.tscn",
+      "res://scenes/s1_01_g1_wisp_carry_lab.tscn",
+      "res://scripts/cap/cap_continuous_container.gd",
+      "res://scripts/cap/cap_slice_activation.gd",
+      "res://scripts/cap/cap_slice_contract.gd",
+      "res://scripts/cap/cap_slice_hud.gd",
+      "res://scripts/cap/cap_slice_root.gd",
+      "res://scripts/cap/cap_slice_s1_segment.gd",
+      "res://scripts/cap/cap_slice_seam.gd",
+      "res://scripts/metrics_lab/metrics_lab_player.gd",
+      "res://scripts/s1_01_g0/s1_01_g0_config.gd",
+      "res://scripts/s1_01_g0/s1_01_g0_kernel.gd",
+      "res://scripts/s1_01_g0/s1_01_g0_records.gd",
+      "res://scripts/s1_01_g0/s1_01_g0_room.gd",
+      "res://scripts/s1_01_g1/s1_01_g1_config.gd",
+      "res://scripts/s1_01_g1/s1_01_g1_kernel.gd",
+      "res://scripts/s1_01_g1/s1_01_g1_records.gd",
+      "res://scripts/s1_01_g1/s1_01_g1_room.gd"
+    ]
+  },
+  "runtime_integrity": {
+    "mode": "precomputed_release_provenance",
+    "validates": "parsed_contract_identity_and_declared_source_map",
+    "does_not_claim": "runtime raw source byte recomputation after export remapping",
+    "artifact_hash_binding": "manifest fixture file SHA-256"
+  },
+  "export": {
+    "preset": "Web",
+    "returncode": 0,
+    "template_bundle": {
+      "godot_template_version": "4.7.stable",
+      "templates": [
+        {
+          "name": "web_nothreads_debug.zip",
+          "bytes": 10227986,
+          "sha256": "3467f4b041216d43f0abd590bb995bf6c8eb1e2de715e1d7c9b5b765509efeb8"
+        },
+        {
+          "name": "web_nothreads_release.zip",
+          "bytes": 10243416,
+          "sha256": "6e1d01e7d8995a2dfec8b33dc530f02c034906267ec441288c2a3318d49e00b9"
+        }
+      ],
+      "copied_to_isolated_export_home": true
+    },
+    "output_tail": "[1msavepack\u001b[22m | Storing File: res://scripts/metrics_lab/metrics_p1_platform_motor.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/metrics_lab/metrics_p2_bounded_plan_parser.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/metrics_lab/metrics_p2_conditional_gate_kernel.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/metrics_lab/metrics_p2_conditional_gate_room.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/metrics_lab/metrics_p2_gate_motor.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/metrics_lab/metrics_p2_plan_config.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/metrics_lab/metrics_p2_plan_hud.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/metrics_lab/metrics_p2_plan_records.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/metrics_lab/metrics_p2_plan_schema.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/metrics_lab/metrics_solidified_trail_config.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/metrics_lab/metrics_solidified_trail_hud.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/metrics_lab/metrics_solidified_trail_kernel.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/metrics_lab/metrics_solidified_trail_plate.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/metrics_lab/metrics_solidified_trail_records.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/metrics_lab/metrics_solidified_trail_room.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/metrics_lab/metrics_solidified_trail_wisp.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/playtest/playtest_runtime.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_01_g0/s1_01_g0_config.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_01_g0/s1_01_g0_kernel.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_01_g0/s1_01_g0_records.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_01_g0/s1_01_g0_room.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_01_g1/s1_01_g1_config.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_01_g1/s1_01_g1_kernel.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_01_g1/s1_01_g1_records.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_01_g1/s1_01_g1_room.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_02/s1_02_config.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_02/s1_02_kernel.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_02/s1_02_records.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_02/s1_02_room.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_03/s1_03_private_mark_config.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_03/s1_03_private_mark_kernel.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_03/s1_03_private_mark_records.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_03/s1_03_private_mark_room.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s2_01/s2_01_guardian_presentation.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s2_01/s2_01_guardian_room.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s2_01/s2_01_presentation_config.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s2_b01/s2_b01_config.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s2_b01/s2_b01_kernel.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s2_b01/s2_b01_records.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s2_b01/s2_b01_room.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/t0/t0_bounded_rewind_config.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/t0/t0_bounded_rewind_kernel.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/t0/t0_bounded_rewind_records.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/t0/t0_bounded_rewind_room.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/companion.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/enemy.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/game_flow.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/hud.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/localization_service.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/memory_policy.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/memory_service.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/player.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://spikes/interpret_v1/src/run_spike.gd.remap\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://.godot/global_script_class_cache.cfg\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://.godot/uid_cache.bin\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://project.binary\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1msavepack\u001b[22m\n\u001b[0m\n"
+  },
+  "native_package_boot": {
+    "passed": true,
+    "cycles": 3,
+    "ready_marker": "WISP_CAP_AA_RELEASE_READY fixture=cap-aa variant=aa scene=res://scenes/cap/wk_cap_aa_control_slice.tscn",
+    "results": [
+      {
+        "cycle": 1,
+        "returncode": 0,
+        "observed_ready_marker": true,
+        "fatal_lines": [],
+        "output_tail": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org\n\nWISP_CAP_AA_RELEASE_READY fixture=cap-aa variant=aa scene=res://scenes/cap/wk_cap_aa_control_slice.tscn\n",
+        "passed": true
+      },
+      {
+        "cycle": 2,
+        "returncode": 0,
+        "observed_ready_marker": true,
+        "fatal_lines": [],
+        "output_tail": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org\n\nWISP_CAP_AA_RELEASE_READY fixture=cap-aa variant=aa scene=res://scenes/cap/wk_cap_aa_control_slice.tscn\n",
+        "passed": true
+      },
+      {
+        "cycle": 3,
+        "returncode": 0,
+        "observed_ready_marker": true,
+        "fatal_lines": [],
+        "output_tail": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org\n\nWISP_CAP_AA_RELEASE_READY fixture=cap-aa variant=aa scene=res://scenes/cap/wk_cap_aa_control_slice.tscn\n",
+        "passed": true
+      }
+    ]
+  },
+  "http_smoke": {
+    "passed": true,
+    "status": "pass",
+    "checked_paths": [
+      "index.apple-touch-icon.png",
+      "index.audio.position.worklet.js",
+      "index.audio.worklet.js",
+      "index.html",
+      "index.icon.png",
+      "index.js",
+      "index.pck",
+      "index.png",
+      "index.wasm"
+    ],
+    "files": [
+      {
+        "path": "index.apple-touch-icon.png",
+        "bytes_match": true,
+        "sha256_match": true,
+        "mime": "image/png",
+        "expected_mime": "image/png",
+        "mime_match": true
+      },
+      {
+        "path": "index.audio.position.worklet.js",
+        "bytes_match": true,
+        "sha256_match": true,
+        "mime": "text/javascript",
+        "expected_mime": "text/javascript",
+        "mime_match": true
+      },
+      {
+        "path": "index.audio.worklet.js",
+        "bytes_match": true,
+        "sha256_match": true,
+        "mime": "text/javascript",
+        "expected_mime": "text/javascript",
+        "mime_match": true
+      },
+      {
+        "path": "index.html",
+        "bytes_match": true,
+        "sha256_match": true,
+        "mime": "text/html",
+        "expected_mime": "text/html",
+        "mime_match": true
+      },
+      {
+        "path": "index.icon.png",
+        "bytes_match": true,
+        "sha256_match": true,
+        "mime": "image/png",
+        "expected_mime": "image/png",
+        "mime_match": true
+      },
+      {
+        "path": "index.js",
+        "bytes_match": true,
+        "sha256_match": true,
+        "mime": "text/javascript",
+        "expected_mime": "text/javascript",
+        "mime_match": true
+      },
+      {
+        "path": "index.pck",
+        "bytes_match": true,
+        "sha256_match": true,
+        "mime": "application/octet-stream",
+        "expected_mime": null,
+        "mime_match": true
+      },
+      {
+        "path": "index.png",
+        "bytes_match": true,
+        "sha256_match": true,
+        "mime": "image/png",
+        "expected_mime": "image/png",
+        "mime_match": true
+      },
+      {
+        "path": "index.wasm",
+        "bytes_match": true,
+        "sha256_match": true,
+        "mime": "application/wasm",
+        "expected_mime": "application/wasm",
+        "mime_match": true
+      }
+    ]
+  },
+  "browser_smoke": {
+    "passed": true,
+    "status": "pass",
+    "command": [
+      "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+      "--headless=new",
+      "--no-sandbox",
+      "--use-angle=swiftshader",
+      "--enable-unsafe-swiftshader",
+      "--enable-webgl",
+      "--ignore-gpu-blocklist",
+      "--no-first-run",
+      "--disable-background-networking",
+      "--disable-component-update",
+      "--enable-logging=stderr",
+      "--v=1",
+      "--virtual-time-budget=20000",
+      "--user-data-dir=/var/folders/v_/24qbjjpj53z2hrmh6q3ymmtm0000gn/T/wk-cap-aa-chrome-2zyforve",
+      "--dump-dom",
+      "http://127.0.0.1:49775/index.html"
+    ],
+    "console_marker": "WISP_CAP_AA_RELEASE_READY fixture=cap-aa variant=aa scene=res://scenes/cap/wk_cap_aa_control_slice.tscn",
+    "dom_markers": [
+      "data-wisp-cap-aa-release-ready=\"true\"",
+      "data-wisp-ready=\"true\"",
+      "data-wisp-fixture=\"cap-aa\"",
+      "data-wisp-scene=\"res://scenes/cap/wk_cap_aa_control_slice.tscn\""
+    ],
+    "observed_console_marker": true,
+    "observed_dom_marker": true,
+    "observed_generic_ready": true,
+    "observed_fixture": true,
+    "observed_scene": true,
+    "observed_webgl2": true,
+    "terminated_after_marker": true,
+    "fatal_lines": [],
+    "console_log": "cap-aa-browser-console.log",
+    "output_tail": "tatusProgress = document.getElementById('status-progress');\n\tconst statusNotice = document.getElementById('status-notice');\n\n\tlet initializing = true;\n\tlet statusMode = '';\n\n\tfunction setStatusMode(mode) {\n\t\tif (statusMode === mode || !initializing) {\n\t\t\treturn;\n\t\t}\n\t\tif (mode === 'hidden') {\n\t\t\tstatusOverlay.remove();\n\t\t\tinitializing = false;\n\t\t\treturn;\n\t\t}\n\t\tstatusOverlay.style.visibility = 'visible';\n\t\tstatusProgress.style.display = mode === 'progress' ? 'block' : 'none';\n\t\tstatusNotice.style.display = mode === 'notice' ? 'block' : 'none';\n\t\tstatusMode = mode;\n\t}\n\n\tfunction setStatusNotice(text) {\n\t\twhile (statusNotice.lastChild) {\n\t\t\tstatusNotice.removeChild(statusNotice.lastChild);\n\t\t}\n\t\tconst lines = text.split('\\n');\n\t\tlines.forEach((line) => {\n\t\t\tstatusNotice.appendChild(document.createTextNode(line));\n\t\t\tstatusNotice.appendChild(document.createElement('br'));\n\t\t});\n\t}\n\n\tfunction displayFailureNotice(err) {\n\t\tconsole.error(err);\n\t\tif (err instanceof Error) {\n\t\t\tsetStatusNotice(err.message);\n\t\t} else if (typeof err === 'string') {\n\t\t\tsetStatusNotice(err);\n\t\t} else {\n\t\t\tsetStatusNotice('An unknown error occurred.');\n\t\t}\n\t\tsetStatusMode('notice');\n\t\tinitializing = false;\n\t}\n\n\tconst missing = Engine.getMissingFeatures({\n\t\tthreads: GODOT_THREADS_ENABLED,\n\t});\n\n\tif (missing.length !== 0) {\n\t\tif (GODOT_CONFIG['serviceWorker'] && GODOT_CONFIG['ensureCrossOriginIsolationHeaders'] && 'serviceWorker' in navigator) {\n\t\t\tlet serviceWorkerRegistrationPromise;\n\t\t\ttry {\n\t\t\t\tserviceWorkerRegistrationPromise = navigator.serviceWorker.getRegistration();\n\t\t\t} catch (err) {\n\t\t\t\tserviceWorkerRegistrationPromise = Promise.reject(new Error('Service worker registration failed.'));\n\t\t\t}\n\t\t\t// There's a chance that installing the service worker would fix the issue\n\t\t\tPromise.race([\n\t\t\t\tserviceWorkerRegistrationPromise.then((registration) => {\n\t\t\t\t\tif (registration != null) {\n\t\t\t\t\t\treturn Promise.reject(new Error('Service worker already exists.'));\n\t\t\t\t\t}\n\t\t\t\t\treturn registration;\n\t\t\t\t}).then(() => engine.installServiceWorker()),\n\t\t\t\t// For some reason, `getRegistration()` can stall\n\t\t\t\tnew Promise((resolve) => {\n\t\t\t\t\tsetTimeout(() => resolve(), 2000);\n\t\t\t\t}),\n\t\t\t]).then(() => {\n\t\t\t\t// Reload if there was no error.\n\t\t\t\twindow.location.reload();\n\t\t\t}).catch((err) => {\n\t\t\t\tconsole.error('Error while registering service worker:', err);\n\t\t\t});\n\t\t} else {\n\t\t\t// Display the message as usual\n\t\t\tconst missingMsg = 'Error\\nThe following features required to run Godot projects on the Web are missing:\\n';\n\t\t\tdisplayFailureNotice(missingMsg + missing.join('\\n'));\n\t\t}\n\t} else {\n\t\tsetStatusMode('progress');\n\t\tengine.startGame({\n\t\t\t'onProgress': function (current, total) {\n\t\t\t\tif (current > 0 && total > 0) {\n\t\t\t\t\tstatusProgress.value = current;\n\t\t\t\t\tstatusProgress.max = total;\n\t\t\t\t} else {\n\t\t\t\t\tstatusProgress.removeAttribute('value');\n\t\t\t\t\tstatusProgress.removeAttribute('max');\n\t\t\t\t}\n\t\t\t},\n\t\t}).then(() => {\n\t\t\tsetStatusMode('hidden');\n\t\t}, displayFailureNotice);\n\t}\n}());\n\t\t</script>\n\t\n\n\n<div class=\"ime\" contenteditable=\"true\" style=\"background: none; opacity: 0; position: fixed; text-align: left; font-size: 1px; left: 0px; top: 0px; width: 100%; height: 40px; pointer-events: none; display: none;\"></div></body></html>\n[18153:65547256:0726/110851.773538:VERBOSE1:chrome/browser/profiles/profile_manager.cc:1468] RemoveKeepAlive(Default, kBrowserWindow). keep_alives=[kHeadlessCommand (1)]\n[18153:65547256:0726/110851.775362:VERBOSE1:chrome/browser/profiles/profile_manager.cc:1468] RemoveKeepAlive(Default, kHeadlessCommand). keep_alives=[]\n[18153:65547256:0726/110851.775384:VERBOSE1:chrome/browser/profiles/profile_manager.cc:1519] Unloading profile Default\n[18153:65547256:0726/110851.777552:VERBOSE1:chrome/browser/enterprise/reporting/saas_usage/saas_usage_report_scheduler_delegate_desktop.cc:68] SaaS usage reporting is disabled because the last reporting-enabled profile is being destroyed.\n[18153:65547256:0726/110851.780336:VERBOSE1:components/actor/core/aggregated_journal.cc:145] [ActorTool]: ActorKeyedService::Shutdown: \n[18153:65547256:0726/110851.780372:VERBOSE1:components/signin/core/browser/account_reconcilor.cc:217] AccountReconcilor::Shutdown\n[18153:65547256:0726/110851.780377:VERBOSE1:components/signin/core/browser/account_reconcilor.cc:671] AccountReconcilor::AbortReconcile: try again later\n[18153:65547256:0726/110851.780380:VERBOSE1:components/signin/core/browser/account_reconcilor.cc:783] AccountReconcilor::CalculateIfMultiloginReconcileIsDone: Error was \n[18153:65547256:0726/110851.780384:VERBOSE1:components/signin/core/browser/account_reconcilor.cc:267] AccountReconcilor::UnregisterWithIdentityManager\n[18153:65547256:0726/110851.780387:VERBOSE1:components/signin/core/browser/account_reconcilor.cc:244] AccountReconcilor::UnregisterWithContentSettings\n[18153:65547256:0726/110851.780656:VERBOSE1:components/signin/internal/identity_manager/mutable_profile_oauth2_token_service_delegate.cc:1089] MutablePO2TS::Shutdown\n[18153:65547256:0726/110851.780672:VERBOSE1:components/signin/internal/identity_manager/mutable_profile_oauth2_token_service_delegate.cc:369] MutablePO2TS::~MutablePO2TS\n[18153:65547365:0726/110851.781553:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)\n[18153:65547365:0726/110851.781565:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)\n[18153:65547256:0726/110851.782565:VERBOSE1:components/sync_user_events/user_event_sync_bridge.cc:77] UserEvents during destruction: 0\n[18153:65547256:0726/110851.783420:VERBOSE1:components/signin/core/browser/account_reconcilor.cc:157] AccountReconcilor::~AccountReconcilor\n[18153:65547256:0726/110851.783552:VERBOSE1:chrome/browser/security_events/security_event_sync_bridge_impl.cc:66] SecurityEvents during destruction: 0\n[18153:65547256:0726/110851.783563:VERBOSE1:components/consent_auditor/consent_sync_bridge_impl.cc:77] UserConsents during destruction: 0\n"
+  },
+  "publication": {
+    "status": "unpublished",
+    "immutable_prefix": "releases/wk-82fe133a",
+    "overwrite_allowed": false,
+    "deployment_receipt": "deployment.json"
+  },
+  "evidence_ceiling": {
+    "machine_release_candidate": true,
+    "human_evidence": false,
+    "h0_pass": false,
+    "formal_h": false,
+    "capacity_10min": false
+  }
+}
