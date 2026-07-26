@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-07-26T03:27:23Z",
+  "status": "pass",
+  "release_id": "wk-82fe133a",
+  "source_commit": "82fe133a10bfc3c5264eecaf9a4ca673c412a29e",
+  "artifact_source_commit": "82fe133a10bfc3c5264eecaf9a4ca673c412a29e",
+  "payload_artifact_commit": "69c3d3decc1875c995eda9a33953384f20a0a886",
+  "public_verifier_commit": "baa24af02307995c6e4a948c54b2a029e9e7a2b4",
+  "public_verifier_commits": [
+    "27fe76f41261418146681bda24f7b0c270302da9",
+    "baa24af02307995c6e4a948c54b2a029e9e7a2b4"
+  ],
+  "manifest_sha256": "2c2972af19905c47d330d299f240a7e4eadfdd908d798d1c54d1a8804e61636b",
+  "public_smoke_sha256": "0f7d14bd06d775c0b15ad78655b5379126e3c497e049bc8593ceb4c0f665ce6c",
+  "publisher": "github-pages",
+  "artifact_repository": "aaron-game-build/wispkeepsake-playtest",
+  "public_base_url": "https://aaron-game-build.github.io/wispkeepsake-playtest",
+  "immutable_prefix": "releases/wk-82fe133a",
+  "published_objects_before_receipt": 10,
+  "published_bytes_before_receipt": 136848421,
+  "browser_smoke": {
+    "status": "pass",
+    "fixtures": [
+      "cap-aa"
+    ],
+    "ready_marker": "true",
+    "runtime_error_count": 0,
+    "wall_timeout_seconds": 180,
+    "virtual_time_budget_ms": 210000,
+    "process_exited_before_marker": false
+  },
+  "claim_limit": "This receipt marks artifact publication only. Machine and browser smoke do not constitute human comprehension evidence or close any Human Gate."
+}
