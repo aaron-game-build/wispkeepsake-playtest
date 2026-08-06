@@ -1,0 +1,20 @@
+{
+  "schema_version": 2,
+  "release_id": "wk-c4fa84b9",
+  "profile_id": "release-carrier-neutral-h",
+  "source_commit": "c4fa84b9413c2f72741003800fa794e02571203f",
+  "manifest_sha256": "76beb50e45b4554ae69331960ef1e055768c77cddee895902bdac8844e4e8a9b",
+  "public_smoke_sha256": "4d83208322d2db29ee66bfc9b459d7099cc7cb6928d9858c62a2d31f6aeac292",
+  "fixture_url": "https://aaron-game-build.github.io/wispkeepsake-playtest/releases/wk-c4fa84b9/release-carrier/index.html",
+  "completed_utc": "2026-08-06T04:19:16.722815Z",
+  "evidence_ceiling": {
+    "machine_exact_scene_smoke": true,
+    "machine_release_candidate": true,
+    "browser_input_transport_only": true,
+    "natural_r1_start_verified": true,
+    "continuous_full_walk": false,
+    "visual_adjudication": false,
+    "human_evidence": false,
+    "capacity_10min": false
+  }
+}
