@@ -1,0 +1,431 @@
+{
+  "schema_version": 2,
+  "generated_utc": "2026-08-06T07:17:59.427654Z",
+  "status": "pass",
+  "profile_id": "release-carrier-neutral-h",
+  "profile_mode": "neutral_h",
+  "scene": "res://scenes/cap/wk_cap_v06_q10_successor_release_carrier.tscn",
+  "source": {
+    "head_commit": "c611413e9ed7ce8bc9e04cfc31d10f8d56cad445",
+    "tree": "31eaf8e834cd33ca40f68a7f612cda96be1651c8",
+    "branch": "codex/wk-release-spine-successor-convergence",
+    "worktree_clean": true,
+    "project_default_scene": "res://scenes/c1a_r3_graybox.tscn",
+    "project_sha256": "c1aba72136d5404a98d146eba28f30228d9cdb2b799bb8ce0d790596d3c88879",
+    "scene_sha256": "1023863fb74dab98ce648253e4312d803c305ca349831f260448d8e35cc66d65",
+    "carrier_sha256": "182a833858a90ce72447ca6dc508b3f08b53d9e505a11449df7f1b7af96100cd",
+    "profile_sha256": "cac1443d78830ab9bb43d136dc33e598319378d3017bb482f03d556c646c2759",
+    "profile_path": "tools/playtest/release_carrier_neutral_h_exact_web_profile.v1.json",
+    "cdp_runner_sha256": "1958dc1c45e4ef67bad7d9eeffc6a23037258b38984341b56040aea020c6f4d3",
+    "fixture_id": "release-carrier-neutral-h"
+  },
+  "evidence_ceiling": {
+    "machine_exact_scene_smoke": true,
+    "machine_release_candidate": true,
+    "browser_input_transport_only": true,
+    "natural_r1_start_verified": true,
+    "continuous_full_walk": false,
+    "visual_adjudication": false,
+    "human_evidence": false,
+    "capacity_10min": false
+  },
+  "temporary_project": {
+    "copy_only": true,
+    "main_scene": "res://scenes/cap/wk_cap_v06_q10_successor_release_carrier.tscn",
+    "temporary_settings": {
+      "wisp/release_carrier_neutral_h_web": true
+    },
+    "source_project_unchanged": true,
+    "project_sha256": "aecef93f3bdefd3d4b33de3f82056bad8815d63a5a449c6899ea71ad50f39932",
+    "export_closure": {
+      "preset": "Web",
+      "filter": "scenes",
+      "selected_scenes": [
+        "res://scenes/cap/wk_cap_v06_q10_successor_release_carrier.tscn"
+      ],
+      "resource_paths": [
+        "res://assets/fonts/NotoSansSC-Regular.otf",
+        "res://scenes/cap/wk_cap_v06_q10_successor_release_carrier.tscn",
+        "res://scripts/cap/cap_r1_r3_i0_contract.gd",
+        "res://scripts/cap/cap_v06_composition_exact_contract.gd",
+        "res://scripts/cap/cap_v06_continuous_slice_player.gd",
+        "res://scripts/cap/cap_v06_continuous_three_round_slice.gd",
+        "res://scripts/cap/q10_g1/q10_g1_relay_loop_kernel.gd",
+        "res://scripts/cap/q10_g1_model/q10_g1_model_causality_gameplay_kernel.gd",
+        "res://scripts/cap/q10_g1_model/q10_g1_model_causality_kernel.gd",
+        "res://scripts/cap/q10_g1_successor/q10_single_exchange_lifecycle.gd",
+        "res://scripts/cap/release_carrier/cap_v06_q10_successor_release_carrier.gd",
+        "res://scripts/cap/release_carrier/q10_successor_release_coordinator.gd",
+        "res://scripts/localization_service.gd",
+        "res://scripts/memory_policy.gd",
+        "res://scripts/memory_service.gd",
+        "res://scripts/metrics_lab/metrics_lab_player.gd",
+        "res://scripts/playtest/playtest_runtime.gd",
+        "res://scripts/s1_01_g0/s1_01_g0_config.gd",
+        "res://scripts/s1_01_g0/s1_01_g0_kernel.gd",
+        "res://scripts/s1_01_g0/s1_01_g0_records.gd",
+        "res://tools/cap/q10_g1_fixture_a.v1.json",
+        "res://tools/cap/q10_g1_fixture_b.v1.json"
+      ],
+      "resource_count": 22,
+      "include_filter": "assets/fonts/NotoSansSC-Regular.otf,scripts/cap/cap_r1_r3_i0_contract.gd,scripts/cap/cap_v06_composition_exact_contract.gd,scripts/cap/cap_v06_continuous_slice_player.gd,scripts/cap/cap_v06_continuous_three_round_slice.gd,scripts/cap/q10_g1/q10_g1_relay_loop_kernel.gd,scripts/cap/q10_g1_model/q10_g1_model_causality_gameplay_kernel.gd,scripts/cap/q10_g1_model/q10_g1_model_causality_kernel.gd,scripts/cap/q10_g1_successor/q10_single_exchange_lifecycle.gd,scripts/cap/release_carrier/cap_v06_q10_successor_release_carrier.gd,scripts/cap/release_carrier/q10_successor_release_coordinator.gd,scripts/localization_service.gd,scripts/memory_policy.gd,scripts/memory_service.gd,scripts/metrics_lab/metrics_lab_player.gd,scripts/playtest/playtest_runtime.gd,scripts/s1_01_g0/s1_01_g0_config.gd,scripts/s1_01_g0/s1_01_g0_kernel.gd,scripts/s1_01_g0/s1_01_g0_records.gd,tools/cap/q10_g1_fixture_a.v1.json,tools/cap/q10_g1_fixture_b.v1.json",
+      "export_presets_sha256": "7d2adf83718ace69ad94a1fb5e61bc20dcda72ab2a2fea6c0a855e6d8d3bf561"
+    }
+  },
+  "editor_scan": {
+    "returncode": 0,
+    "passed": true,
+    "fatal_lines": [],
+    "output_tail": "port Scene (104 steps)\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | Importing Scene...\u001b[39m\u001b[0m\n[   1% ] \u001b[90m\u001b[1mimport\u001b[22m | Running Custom Script...\u001b[39m\u001b[0m\n[  99% ] \u001b[90m\u001b[1mimport\u001b[22m | Saving...\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mimport\u001b[22m\n\u001b[0m\n[  96% ] \u001b[90m\u001b[1mreimport\u001b[22m | wisp_meshy_m6_earth_hunyuan_components.fbx\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | Started Import Scene (104 steps)\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | Importing Scene...\u001b[39m\u001b[0m\n[   1% ] \u001b[90m\u001b[1mimport\u001b[22m | Running Custom Script...\u001b[39m\u001b[0m\n[  99% ] \u001b[90m\u001b[1mimport\u001b[22m | Saving...\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mimport\u001b[22m\n\u001b[0m\n[  96% ] \u001b[90m\u001b[1mreimport\u001b[22m | Meshy_AI_Geodesic_Sentinel_biped_Animation_Idle_02_withSkin.glb\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | Started Import Scene (104 steps)\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | Importing Scene...\u001b[39m\u001b[0m\n[   1% ] \u001b[90m\u001b[1mimport\u001b[22m | Running Custom Script...\u001b[39m\u001b[0m\n[  99% ] \u001b[90m\u001b[1mimport\u001b[22m | Saving...\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mimport\u001b[22m\n\u001b[0m\n[  97% ] \u001b[90m\u001b[1mreimport\u001b[22m | Meshy_AI_Geodesic_Sentinel_biped_Animation_Running_withSkin.glb\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | Started Import Scene (104 steps)\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | Importing Scene...\u001b[39m\u001b[0m\n[   1% ] \u001b[90m\u001b[1mimport\u001b[22m | Running Custom Script...\u001b[39m\u001b[0m\n[  99% ] \u001b[90m\u001b[1mimport\u001b[22m | Saving...\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mimport\u001b[22m\n\u001b[0m\n[  97% ] \u001b[90m\u001b[1mreimport\u001b[22m | Meshy_AI_Geodesic_Sentinel_biped_Animation_Walking_withSkin.glb\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | Started Import Scene (104 steps)\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | Importing Scene...\u001b[39m\u001b[0m\n[   1% ] \u001b[90m\u001b[1mimport\u001b[22m | Running Custom Script...\u001b[39m\u001b[0m\n[  99% ] \u001b[90m\u001b[1mimport\u001b[22m | Saving...\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mimport\u001b[22m\n\u001b[0m\n[  98% ] \u001b[90m\u001b[1mreimport\u001b[22m | Meshy_AI_Geodesic_Sentinel_biped_Character_output.glb\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | Started Import Scene (104 steps)\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | Importing Scene...\u001b[39m\u001b[0m\n[   1% ] \u001b[90m\u001b[1mimport\u001b[22m | Running Custom Script...\u001b[39m\u001b[0m\n[  99% ] \u001b[90m\u001b[1mimport\u001b[22m | Saving...\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mimport\u001b[22m\n\u001b[0m\n[  98% ] \u001b[90m\u001b[1mreimport\u001b[22m | Meshy_AI_Geodesic_Sentinel_biped_Meshy_AI_Meshy_Merged_Animations.glb\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | Started Import Scene (104 steps)\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | Importing Scene...\u001b[39m\u001b[0m\n[   1% ] \u001b[90m\u001b[1mimport\u001b[22m | Running Custom Script...\u001b[39m\u001b[0m\n[  99% ] \u001b[90m\u001b[1mimport\u001b[22m | Saving...\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mimport\u001b[22m\n\u001b[0m\n[  98% ] \u001b[90m\u001b[1mreimport\u001b[22m | player_female_meshy_running_blender_normalized.glb\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | Started Import Scene (104 steps)\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | Importing Scene...\u001b[39m\u001b[0m\n[   1% ] \u001b[90m\u001b[1mimport\u001b[22m | Running Custom Script...\u001b[39m\u001b[0m\n[  99% ] \u001b[90m\u001b[1mimport\u001b[22m | Saving...\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mimport\u001b[22m\n\u001b[0m\n[  99% ] \u001b[90m\u001b[1mreimport\u001b[22m | wisp_hunyuan_components_texture_multiview_parts.glb\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | Started Import Scene (104 steps)\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mimport\u001b[22m | Importing Scene...\u001b[39m\u001b[0m\n[   1% ] \u001b[90m\u001b[1mimport\u001b[22m | Running Custom Script...\u001b[39m\u001b[0m\n[  99% ] \u001b[90m\u001b[1mimport\u001b[22m | Saving...\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mimport\u001b[22m\n\u001b[0m\n[  99% ] \u001b[90m\u001b[1mreimport\u001b[22m | Finalizing Asset Import...\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mreimport\u001b[22m\n\u001b[0m\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | Started (Re)Importing Assets (253 steps)\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mreimport\u001b[22m | Executing post-reimport operations...\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mreimport\u001b[22m\n\u001b[0m\n[   0% ] \u001b[90m\u001b[1mloading_editor_layout\u001b[22m | Started Loading editor (5 steps)\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mloading_editor_layout\u001b[22m | Loading editor layout...\u001b[39m\u001b[0m\n[  16% ] \u001b[90m\u001b[1mloading_editor_layout\u001b[22m | Loading docks...\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mloading_editor_layout\u001b[22m\n\u001b[0m\n"
+  },
+  "export": {
+    "passed": true,
+    "preset": "Web",
+    "returncode": 0,
+    "template_bundle": {
+      "godot_template_version": "4.7.stable",
+      "templates": [
+        {
+          "name": "web_nothreads_debug.zip",
+          "bytes": 10227986,
+          "sha256": "3467f4b041216d43f0abd590bb995bf6c8eb1e2de715e1d7c9b5b765509efeb8"
+        },
+        {
+          "name": "web_nothreads_release.zip",
+          "bytes": 10243416,
+          "sha256": "6e1d01e7d8995a2dfec8b33dc530f02c034906267ec441288c2a3318d49e00b9"
+        }
+      ],
+      "copied_to_isolated_export_home": true
+    },
+    "fatal_lines": [],
+    "output_tail": "2a071d0d02721a9ae1114e43f-wk_cap_v06_q10_successor_release_carrier.scn\u001b[39m\u001b[0m\n[   5% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/cap/release_carrier/cap_v06_q10_successor_release_carrier.gdc\u001b[39m\u001b[0m\n[  10% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/localization_service.gdc\u001b[39m\u001b[0m\n[  14% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/memory_service.gdc\u001b[39m\u001b[0m\n[  19% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/playtest/playtest_runtime.gdc\u001b[39m\u001b[0m\n[  23% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://tools/cap/q10_g1_fixture_a.v1.json\u001b[39m\u001b[0m\n[  28% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://tools/cap/q10_g1_fixture_b.v1.json\u001b[39m\u001b[0m\n[  32% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/memory_policy.gdc\u001b[39m\u001b[0m\n[  36% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/metrics_lab/metrics_lab_player.gdc\u001b[39m\u001b[0m\n[  40% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_01_g0/s1_01_g0_records.gdc\u001b[39m\u001b[0m\n[  45% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_01_g0/s1_01_g0_kernel.gdc\u001b[39m\u001b[0m\n[  50% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_01_g0/s1_01_g0_config.gdc\u001b[39m\u001b[0m\n[  54% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/cap/cap_v06_composition_exact_contract.gdc\u001b[39m\u001b[0m\n[  59% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/cap/cap_r1_r3_i0_contract.gdc\u001b[39m\u001b[0m\n[  63% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/cap/cap_v06_continuous_three_round_slice.gdc\u001b[39m\u001b[0m\n[  67% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/cap/cap_v06_continuous_slice_player.gdc\u001b[39m\u001b[0m\n[  71% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/cap/q10_g1_successor/q10_single_exchange_lifecycle.gdc\u001b[39m\u001b[0m\n[  76% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/cap/q10_g1_model/q10_g1_model_causality_gameplay_kernel.gdc\u001b[39m\u001b[0m\n[  80% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/cap/q10_g1_model/q10_g1_model_causality_kernel.gdc\u001b[39m\u001b[0m\n[  85% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/cap/release_carrier/q10_successor_release_coordinator.gdc\u001b[39m\u001b[0m\n[  89% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/cap/q10_g1/q10_g1_relay_loop_kernel.gdc\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://.godot/imported/NotoSansSC-Regular.otf-c0c85f3b3b2ad6d96b65df5f3103bb43.fontdata\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://assets/fonts/NotoSansSC-Regular.otf.import\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scenes/cap/wk_cap_v06_q10_successor_release_carrier.tscn.remap\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/cap/release_carrier/cap_v06_q10_successor_release_carrier.gd.remap\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/localization_service.gd.remap\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/memory_service.gd.remap\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/playtest/playtest_runtime.gd.remap\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/memory_policy.gd.remap\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/metrics_lab/metrics_lab_player.gd.remap\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_01_g0/s1_01_g0_records.gd.remap\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_01_g0/s1_01_g0_kernel.gd.remap\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/s1_01_g0/s1_01_g0_config.gd.remap\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/cap/cap_v06_composition_exact_contract.gd.remap\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/cap/cap_r1_r3_i0_contract.gd.remap\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/cap/cap_v06_continuous_three_round_slice.gd.remap\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/cap/cap_v06_continuous_slice_player.gd.remap\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/cap/q10_g1_successor/q10_single_exchange_lifecycle.gd.remap\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/cap/q10_g1_model/q10_g1_model_causality_gameplay_kernel.gd.remap\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/cap/q10_g1_model/q10_g1_model_causality_kernel.gd.remap\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/cap/release_carrier/q10_successor_release_coordinator.gd.remap\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://scripts/cap/q10_g1/q10_g1_relay_loop_kernel.gd.remap\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://.godot/global_script_class_cache.cfg\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://.godot/uid_cache.bin\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1msavepack\u001b[22m | Storing File: res://project.binary\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1msavepack\u001b[22m\n\u001b[0m\n"
+  },
+  "package": {
+    "directory": "package",
+    "files": [
+      {
+        "path": "index.apple-touch-icon.png",
+        "bytes": 11944,
+        "sha256": "01d4f63e525941e06ce74f5187dad030d20a8d52a07ce365ae4e94af97a3b1f5"
+      },
+      {
+        "path": "index.audio.position.worklet.js",
+        "bytes": 2973,
+        "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+      },
+      {
+        "path": "index.audio.worklet.js",
+        "bytes": 7298,
+        "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+      },
+      {
+        "path": "index.html",
+        "bytes": 5444,
+        "sha256": "7466d26226d0801e4dff06c7eaed3a6101b5341d3ac3dc0c530b1385ba0b64c5"
+      },
+      {
+        "path": "index.icon.png",
+        "bytes": 5700,
+        "sha256": "ad3c35ad0facf487c618204bd98db543034fc95224eadc7f08c7a9ff38d5b3b5"
+      },
+      {
+        "path": "index.js",
+        "bytes": 279815,
+        "sha256": "68586d6daafc93c6e697b3fb258976874aa7459b8931165ebb1dc3c9614cc42c"
+      },
+      {
+        "path": "index.pck",
+        "bytes": 7877696,
+        "sha256": "e6678ad2ff5518d6a4fedd79c2738295de86b88bc53ad164eef0782cf6863ad6"
+      },
+      {
+        "path": "index.png",
+        "bytes": 21443,
+        "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+      },
+      {
+        "path": "index.wasm",
+        "bytes": 39509339,
+        "sha256": "7eda98958eb09135a1acb54a4323a00b1a55af1997f15fa1cdc2b93e3df46656"
+      }
+    ],
+    "total_bytes": 47721652,
+    "max_github_blob_bytes_exclusive": 104857600,
+    "oversized_files": []
+  },
+  "native_package_boot": {
+    "passed": true,
+    "cycles": [
+      {
+        "cycle": 1,
+        "passed": true,
+        "returncode": 0,
+        "ready_marker_seen": true,
+        "fatal_lines": [],
+        "output_tail": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org\n\nWISP_CAP_V06_CONTINUOUS_SLICE_READY base=5998e4a1fb5b97c8817d13582869ba77db4e547e\nWISP_RELEASE_SPINE_SUCCESSOR_CARRIER_READY id=wk-release-spine-q10-successor-convergence-v1\nWISP_RELEASE_CARRIER_NEUTRAL_H_READY fixture=release-carrier-neutral-h scene=res://scenes/cap/wk_cap_v06_q10_successor_release_carrier.tscn phase=R1 state=R1_DRAW\n"
+      },
+      {
+        "cycle": 2,
+        "passed": true,
+        "returncode": 0,
+        "ready_marker_seen": true,
+        "fatal_lines": [],
+        "output_tail": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org\n\nWISP_CAP_V06_CONTINUOUS_SLICE_READY base=5998e4a1fb5b97c8817d13582869ba77db4e547e\nWISP_RELEASE_SPINE_SUCCESSOR_CARRIER_READY id=wk-release-spine-q10-successor-convergence-v1\nWISP_RELEASE_CARRIER_NEUTRAL_H_READY fixture=release-carrier-neutral-h scene=res://scenes/cap/wk_cap_v06_q10_successor_release_carrier.tscn phase=R1 state=R1_DRAW\n"
+      },
+      {
+        "cycle": 3,
+        "passed": true,
+        "returncode": 0,
+        "ready_marker_seen": true,
+        "fatal_lines": [],
+        "output_tail": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org\n\nWISP_CAP_V06_CONTINUOUS_SLICE_READY base=5998e4a1fb5b97c8817d13582869ba77db4e547e\nWISP_RELEASE_SPINE_SUCCESSOR_CARRIER_READY id=wk-release-spine-q10-successor-convergence-v1\nWISP_RELEASE_CARRIER_NEUTRAL_H_READY fixture=release-carrier-neutral-h scene=res://scenes/cap/wk_cap_v06_q10_successor_release_carrier.tscn phase=R1 state=R1_DRAW\n"
+      }
+    ]
+  },
+  "localhost_http_smoke": {
+    "passed": true,
+    "status": "pass",
+    "checked_paths": [
+      "index.apple-touch-icon.png",
+      "index.audio.position.worklet.js",
+      "index.audio.worklet.js",
+      "index.html",
+      "index.icon.png",
+      "index.js",
+      "index.pck",
+      "index.png",
+      "index.wasm"
+    ],
+    "files": [
+      {
+        "path": "index.apple-touch-icon.png",
+        "bytes_match": true,
+        "sha256_match": true,
+        "mime": "image/png",
+        "expected_mime": "image/png",
+        "mime_match": true,
+        "strict_allowed_mime": [
+          "image/png"
+        ],
+        "strict_mime_match": true
+      },
+      {
+        "path": "index.audio.position.worklet.js",
+        "bytes_match": true,
+        "sha256_match": true,
+        "mime": "text/javascript",
+        "expected_mime": "text/javascript",
+        "mime_match": true,
+        "strict_allowed_mime": [
+          "application/javascript",
+          "text/javascript"
+        ],
+        "strict_mime_match": true
+      },
+      {
+        "path": "index.audio.worklet.js",
+        "bytes_match": true,
+        "sha256_match": true,
+        "mime": "text/javascript",
+        "expected_mime": "text/javascript",
+        "mime_match": true,
+        "strict_allowed_mime": [
+          "application/javascript",
+          "text/javascript"
+        ],
+        "strict_mime_match": true
+      },
+      {
+        "path": "index.html",
+        "bytes_match": true,
+        "sha256_match": true,
+        "mime": "text/html",
+        "expected_mime": "text/html",
+        "mime_match": true,
+        "strict_allowed_mime": [
+          "text/html"
+        ],
+        "strict_mime_match": true
+      },
+      {
+        "path": "index.icon.png",
+        "bytes_match": true,
+        "sha256_match": true,
+        "mime": "image/png",
+        "expected_mime": "image/png",
+        "mime_match": true,
+        "strict_allowed_mime": [
+          "image/png"
+        ],
+        "strict_mime_match": true
+      },
+      {
+        "path": "index.js",
+        "bytes_match": true,
+        "sha256_match": true,
+        "mime": "text/javascript",
+        "expected_mime": "text/javascript",
+        "mime_match": true,
+        "strict_allowed_mime": [
+          "application/javascript",
+          "text/javascript"
+        ],
+        "strict_mime_match": true
+      },
+      {
+        "path": "index.pck",
+        "bytes_match": true,
+        "sha256_match": true,
+        "mime": "application/octet-stream",
+        "expected_mime": null,
+        "mime_match": true,
+        "strict_allowed_mime": [
+          "application/octet-stream"
+        ],
+        "strict_mime_match": true
+      },
+      {
+        "path": "index.png",
+        "bytes_match": true,
+        "sha256_match": true,
+        "mime": "image/png",
+        "expected_mime": "image/png",
+        "mime_match": true,
+        "strict_allowed_mime": [
+          "image/png"
+        ],
+        "strict_mime_match": true
+      },
+      {
+        "path": "index.wasm",
+        "bytes_match": true,
+        "sha256_match": true,
+        "mime": "application/wasm",
+        "expected_mime": "application/wasm",
+        "mime_match": true,
+        "strict_allowed_mime": [
+          "application/wasm"
+        ],
+        "strict_mime_match": true
+      }
+    ],
+    "full_body_hash_and_mime": true
+  },
+  "browser_input_smoke": {
+    "passed": true,
+    "returncode": 0,
+    "receipt": "browser/browser-input-smoke.json",
+    "receipt_sha256": "90ac2f49bfe84f8587373f9941ef7aa119dce9ed1f9b7ce8016bd3065f5633d0",
+    "result": {
+      "schema_version": 1,
+      "passed": true,
+      "profile_id": "release-carrier-neutral-h",
+      "scene": "res://scenes/cap/wk_cap_v06_q10_successor_release_carrier.tscn",
+      "started_utc": "2026-08-06T07:18:48.112Z",
+      "local_port": 51755,
+      "completed_utc": "2026-08-06T07:18:52.954Z",
+      "local_only": true,
+      "public_smoke": false,
+      "url": "http://127.0.0.1:51755/index.html",
+      "chrome_version": "Google Chrome 150.0.7871.189",
+      "ready_marker": "WISP_RELEASE_CARRIER_NEUTRAL_H_READY fixture=release-carrier-neutral-h scene=res://scenes/cap/wk_cap_v06_q10_successor_release_carrier.tscn phase=R1 state=R1_DRAW",
+      "initial_dom": {
+        "wispReady": "true",
+        "wispFixture": "release-carrier-neutral-h",
+        "wispScene": "res://scenes/cap/wk_cap_v06_q10_successor_release_carrier.tscn",
+        "wispInputSmoke": "ready"
+      },
+      "final_dom": {
+        "wispReady": "true",
+        "wispFixture": "release-carrier-neutral-h",
+        "wispScene": "res://scenes/cap/wk_cap_v06_q10_successor_release_carrier.tscn",
+        "wispInputSmoke": "complete"
+      },
+      "input_steps": [
+        {
+          "code": "Digit4",
+          "key": "4",
+          "windows_virtual_key_code": 52,
+          "expected_phase": "R1",
+          "expected_state": "R1_DRAW",
+          "marker": "WISP_RELEASE_CARRIER_NEUTRAL_H_INPUT key=4 handled=true phase=R1 state=R1_DRAW",
+          "observed": true
+        }
+      ],
+      "webgl2_observed": true,
+      "page_exceptions": [],
+      "page_errors": [],
+      "fatal_lines": [],
+      "external_requests": [],
+      "page_request_count": 7,
+      "console_log": "browser-console.log",
+      "claim_limit": "Exact-scene Web boot, natural R1 start, and restart input transport only; no full-walk, visual, human, or capacity claim."
+    },
+    "output_tail": "WISP_RELEASE_CARRIER_BROWSER_INPUT_PASS receipt=/Users/aaronking/Documents/aiProject/WispKeepsake-Godot/.audit/worktrees/release-spine-successor-convergence/.audit/exact-web/release-carrier-c611413e-neutral-h-release2/browser/browser-input-smoke.json\n"
+  },
+  "completed_utc": "2026-08-06T07:18:55.491358Z",
+  "release_id": "wk-c611413e",
+  "fixtures": [
+    {
+      "id": "release-carrier-neutral-h",
+      "label": "WK release carrier neutral H exact Web release",
+      "scene": "res://scenes/cap/wk_cap_v06_q10_successor_release_carrier.tscn",
+      "relative_url": "release-carrier/index.html",
+      "evidence_eligibility": "exact-commit-candidate",
+      "files": [
+        {
+          "path": "index.apple-touch-icon.png",
+          "bytes": 11944,
+          "sha256": "01d4f63e525941e06ce74f5187dad030d20a8d52a07ce365ae4e94af97a3b1f5"
+        },
+        {
+          "path": "index.audio.position.worklet.js",
+          "bytes": 2973,
+          "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+        },
+        {
+          "path": "index.audio.worklet.js",
+          "bytes": 7298,
+          "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+        },
+        {
+          "path": "index.html",
+          "bytes": 5444,
+          "sha256": "7466d26226d0801e4dff06c7eaed3a6101b5341d3ac3dc0c530b1385ba0b64c5"
+        },
+        {
+          "path": "index.icon.png",
+          "bytes": 5700,
+          "sha256": "ad3c35ad0facf487c618204bd98db543034fc95224eadc7f08c7a9ff38d5b3b5"
+        },
+        {
+          "path": "index.js",
+          "bytes": 279815,
+          "sha256": "68586d6daafc93c6e697b3fb258976874aa7459b8931165ebb1dc3c9614cc42c"
+        },
+        {
+          "path": "index.pck",
+          "bytes": 7877696,
+          "sha256": "e6678ad2ff5518d6a4fedd79c2738295de86b88bc53ad164eef0782cf6863ad6"
+        },
+        {
+          "path": "index.png",
+          "bytes": 21443,
+          "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+        },
+        {
+          "path": "index.wasm",
+          "bytes": 39509339,
+          "sha256": "7eda98958eb09135a1acb54a4323a00b1a55af1997f15fa1cdc2b93e3df46656"
+        }
+      ]
+    }
+  ],
+  "publication": {
+    "status": "unpublished",
+    "immutable_prefix": "releases/wk-c611413e",
+    "overwrite_allowed": false,
+    "deployment_receipt": "deployment.json"
+  }
+}
